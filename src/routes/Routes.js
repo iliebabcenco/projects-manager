@@ -6,6 +6,7 @@ import LoginForm from '../components/LoginForm';
 import EditProjectForm from '../components/EditProjectForm';
 import ProjectsContainer from '../containers/ProjectsContainer';
 import ShowProject from '../components/ShowProject';
+import RegisterForm from '../components/RegisterForm';
 
 const Routes = () => (
   <BrowserRouter>
@@ -16,6 +17,7 @@ const Routes = () => (
       <Route exact path="/edit" component={EditProjectForm} />
       <Route exact path="/top" component={ProjectsContainer} />
       <Route exact path="/show" component={ShowProject} />
+      <Route exact path="/register" component={RegisterForm} />
     </Switch>
   </BrowserRouter>
 );

@@ -5,6 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/user-event": "^12.1.10",
+    "@userfront/react": "^0.2.17",
     "axios": "^0.21.1",
     "jest-fetch-mock": "^3.0.3",
     "prop-types": "^15.7.2",

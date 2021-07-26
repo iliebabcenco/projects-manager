@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NewProjectForm = () => {
-  <div />;
+  <h3>New project form</h3>;
 };
 
 export default NewProjectForm;
