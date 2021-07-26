@@ -1,9 +1,7 @@
 import React from 'react';
 
 const NewProjectForm = () => {
-    <div>
-
-    </div>
-}
+  <div />;
+};
 
 export default NewProjectForm;

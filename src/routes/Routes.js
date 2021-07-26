@@ -1,5 +1,11 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import React from 'react';
+import Dashboard from '../components/Dashboard';
+import NewProjectForm from '../components/NewProjectForm';
+import LoginForm from '../components/LoginForm';
+import EditProjectForm from '../components/EditProjectForm';
+import ProjectsContainer from '../containers/ProjectsContainer';
+import ShowProject from '../components/ShowProject';
 
 const Routes = () => (
   <BrowserRouter>
