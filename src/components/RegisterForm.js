@@ -7,8 +7,10 @@ const SignupForm = Userfront.build({
   toolId: 'oaobrr',
 });
 
-const RegisterForm = () => {
-  <SignupForm />;
-};
+const RegisterForm = () => (
+  <div>
+    <SignupForm />
+  </div>
+);
 
 export default RegisterForm;
